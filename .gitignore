@@ -1,7 +1,8 @@
 # Local data: only data/README.md is eligible for version control.
 /data/*
-!/data/README.md
 /data/**/*
+!/data/
+!/data/README.md
 
 # Person-level and source-dataset exports.
 **/metadata_feature_matrix.csv
