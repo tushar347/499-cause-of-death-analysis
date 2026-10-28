@@ -1,0 +1,61 @@
+feature_set,model,repeat,fold,macro_f1
+Tier 1 (safe),Logistic Regression,1,1,0.21248498259964244
+Tier 1 (safe),Logistic Regression,1,2,0.30042279145891226
+Tier 1 (safe),Logistic Regression,1,3,0.21414856257384357
+Tier 1 (safe),Logistic Regression,1,4,0.2816064259732411
+Tier 1 (safe),Logistic Regression,1,5,0.2464069264069264
+Tier 1 (safe),Logistic Regression,2,1,0.20953399804093903
+Tier 1 (safe),Logistic Regression,2,2,0.2586907490268835
+Tier 1 (safe),Logistic Regression,2,3,0.24413882717390542
+Tier 1 (safe),Logistic Regression,2,4,0.2642337553672037
+Tier 1 (safe),Logistic Regression,2,5,0.21455114933375805
+Tier 1 (safe),Random Forest,1,1,0.21103983792724573
+Tier 1 (safe),Random Forest,1,2,0.241298692310216
+Tier 1 (safe),Random Forest,1,3,0.21585695006747638
+Tier 1 (safe),Random Forest,1,4,0.24712637165556073
+Tier 1 (safe),Random Forest,1,5,0.31382815496739547
+Tier 1 (safe),Random Forest,2,1,0.24978664557809852
+Tier 1 (safe),Random Forest,2,2,0.28339361999441054
+Tier 1 (safe),Random Forest,2,3,0.1907319571941465
+Tier 1 (safe),Random Forest,2,4,0.26562533863745735
+Tier 1 (safe),Random Forest,2,5,0.2174070738005164
+Tier 1+2 (history),Logistic Regression,1,1,0.33560627798791354
+Tier 1+2 (history),Logistic Regression,1,2,0.287810010363841
+Tier 1+2 (history),Logistic Regression,1,3,0.27234764092065894
+Tier 1+2 (history),Logistic Regression,1,4,0.3469835100421136
+Tier 1+2 (history),Logistic Regression,1,5,0.3190722114170591
+Tier 1+2 (history),Logistic Regression,2,1,0.3068308931425233
+Tier 1+2 (history),Logistic Regression,2,2,0.2881408199718059
+Tier 1+2 (history),Logistic Regression,2,3,0.29858135981665396
+Tier 1+2 (history),Logistic Regression,2,4,0.3722416393613148
+Tier 1+2 (history),Logistic Regression,2,5,0.3288630667578036
+Tier 1+2 (history),Random Forest,1,1,0.3251201393344062
+Tier 1+2 (history),Random Forest,1,2,0.31828578429924653
+Tier 1+2 (history),Random Forest,1,3,0.3229351659692217
+Tier 1+2 (history),Random Forest,1,4,0.3626235779724152
+Tier 1+2 (history),Random Forest,1,5,0.3893620792052692
+Tier 1+2 (history),Random Forest,2,1,0.3142742703219664
+Tier 1+2 (history),Random Forest,2,2,0.3164181783824641
+Tier 1+2 (history),Random Forest,2,3,0.301669601098699
+Tier 1+2 (history),Random Forest,2,4,0.3766013071895425
+Tier 1+2 (history),Random Forest,2,5,0.3718711157241892
+Tier 1 (safe),TabPFN,1,1,0.20312151616499446
+Tier 1 (safe),TabPFN,1,2,0.2204743763057638
+Tier 1 (safe),TabPFN,1,3,0.2080230496453901
+Tier 1 (safe),TabPFN,1,4,0.24239532386973636
+Tier 1 (safe),TabPFN,1,5,0.23452320244773076
+Tier 1 (safe),TabPFN,2,1,0.22459132906894103
+Tier 1 (safe),TabPFN,2,2,0.23797877249653904
+Tier 1 (safe),TabPFN,2,3,0.19454360020397757
+Tier 1 (safe),TabPFN,2,4,0.22692491630798664
+Tier 1 (safe),TabPFN,2,5,0.19994900560938297
+Tier 1+2 (history),TabPFN,1,1,0.24166129366449046
+Tier 1+2 (history),TabPFN,1,2,0.3003191594806225
+Tier 1+2 (history),TabPFN,1,3,0.2679227053140097
+Tier 1+2 (history),TabPFN,1,4,0.3127918529557874
+Tier 1+2 (history),TabPFN,1,5,0.30491339696005654
+Tier 1+2 (history),TabPFN,2,1,0.2593280383978058
+Tier 1+2 (history),TabPFN,2,2,0.2963917603913406
+Tier 1+2 (history),TabPFN,2,3,0.26352186570765807
+Tier 1+2 (history),TabPFN,2,4,0.29576719576719573
+Tier 1+2 (history),TabPFN,2,5,0.32562111801242233
