@@ -20,9 +20,9 @@ Run commands from the repository root with the local metadata file at `data/meta
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-python scripts\compare_models.py
 python scripts\run_tabpfn.py
 python scripts\analyze_tabpfn.py
+python scripts\compare_models.py
 python scripts\age_analysis.py
 python scripts\age_ablation.py
 python scripts\fix_age_chart.py
