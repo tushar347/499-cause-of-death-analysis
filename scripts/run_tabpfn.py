@@ -6,13 +6,13 @@
 # pip install tabpfn scikit-learn pandas numpy
 #
 # Run:
-# python run_tabpfn.py
+# python scripts/run_tabpfn.py
 #
 # Google Colab:
 # 1. Select Runtime > Change runtime type > T4 GPU.
-# 2. Upload this script and metadata_feature_matrix.csv.
+# 2. Upload this script and data/metadata_feature_matrix.csv.
 # 3. Run: !pip install -q tabpfn scikit-learn pandas numpy
-# 4. Run: !python run_tabpfn.py
+# 4. Run: !python scripts/run_tabpfn.py
 
 import random
 
