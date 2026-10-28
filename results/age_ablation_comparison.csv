@@ -1,0 +1,9 @@
+experiment,model,mean_macro_f1
+Tier 1 (safe) (with age),Logistic Regression,0.24462181679552555
+Tier 1 (safe) (with age),Random Forest,0.24360946421325239
+Tier 1+2 (history) (with age),Logistic Regression,0.3156477429781687
+Tier 1+2 (history) (with age),Random Forest,0.33991612194974197
+Tier 1 without age,Logistic Regression,0.23962126589320562
+Tier 1 without age,Random Forest,0.23059981507152374
+Tier 1+2 without age,Logistic Regression,0.3016284900517864
+Tier 1+2 without age,Random Forest,0.33641013207990855

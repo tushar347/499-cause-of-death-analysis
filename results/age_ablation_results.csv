@@ -1,0 +1,5 @@
+feature_set,model,mean_macro_f1,std_macro_f1
+Tier 1 without age,Logistic Regression,0.23962126589320562,0.03207817477444959
+Tier 1 without age,Random Forest,0.23059981507152374,0.02081651307453312
+Tier 1+2 without age,Logistic Regression,0.3016284900517864,0.016038839900719224
+Tier 1+2 without age,Random Forest,0.33641013207990855,0.04417130077472994
