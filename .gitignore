@@ -1,0 +1,31 @@
+# Local data: only data/README.md is eligible for version control.
+/data/*
+/data/**/*
+!/data/
+!/data/README.md
+
+# Person-level and source-dataset exports.
+**/metadata_feature_matrix.csv
+**/cohort_*.csv
+**/nmdid_*.csv
+**/*NMDID*.csv
+**/*nmdid*.csv
+**/*.zip
+
+# Medical imaging and trained model artifacts.
+**/*.dcm
+**/*.dicom
+**/*.nii
+**/*.nii.gz
+**/*.joblib
+**/*.pkl
+**/*.pt
+
+# Local environments, caches, and secrets.
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+.env
+.env.*
+!.env.example
