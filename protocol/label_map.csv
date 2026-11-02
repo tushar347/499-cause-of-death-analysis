@@ -1,0 +1,6 @@
+original_label,broad_label,within_domain_task,within_domain_label,include_in_trauma_subtype_task
+blunt_trauma,trauma,trauma_subtype,blunt_trauma,True
+firearm,trauma,trauma_subtype,firearm,True
+stab,trauma,trauma_subtype,stab,True
+cardiac,cardiac,not_applicable_single_class,,False
+intox,intoxication,not_applicable_single_class,,False

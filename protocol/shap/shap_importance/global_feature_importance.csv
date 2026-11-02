@@ -1,0 +1,153 @@
+task,scenario,model,feature,mean_abs_shap,rank,validation_n
+five_class,S7_all_history,Random Forest,med_na,0.03505605617438319,1,129
+five_class,S7_all_history,Random Forest,age_years,0.024780091309916197,2,129
+five_class,S7_all_history,Random Forest,n_meds,0.02064271992432436,3,129
+five_class,S7_all_history,Random Forest,dx_hypertension,0.016253183937846978,4,129
+five_class,S7_all_history,Random Forest,env_drinking status:high risk,0.013401326390693507,5,129
+five_class,S7_all_history,Random Forest,su_na,0.013299714014716149,6,129
+five_class,S7_all_history,Random Forest,"env_drinking status:drinker, cur",0.012481554544473422,7,129
+five_class,S7_all_history,Random Forest,su_opiods,0.008916381455107703,8,129
+five_class,S7_all_history,Random Forest,dx_mental illness,0.0073629161530706175,9,129
+five_class,S7_all_history,Random Forest,female,0.004615289693446609,10,129
+five_class,S7_all_history,Random Forest,mh_surgery,0.0036960108281715955,11,129
+five_class,S7_all_history,Random Forest,mh_facial_trauma,0.0029341730336798445,12,129
+five_class,S7_all_history,Random Forest,mh_implant,0.002644641238803832,13,129
+five_class,S7_all_history,Random Forest,med_d7804.0,0.002460569314699841,14,129
+five_class,S7_all_history,Random Forest,dx_coronary artery disease,0.0022508880261336477,15,129
+five_class,S7_all_history,Random Forest,"env_tobacco usage:tobacco user, ",0.002189514148156617,16,129
+five_class,S7_all_history,Random Forest,med_d29046.0,0.002014727244730747,17,129
+five_class,S7_all_history,Random Forest,mh_radiation_therapy,0.0020039260839532285,18,129
+five_class,S7_all_history,Random Forest,med_d5489.0,0.0019231025252322187,19,129
+five_class,S7_all_history,Random Forest,env_drinking status:low risk,0.0018267202815600825,20,129
+five_class,S7_all_history,Random Forest,med_d25480.0,0.001629746510635056,21,129
+five_class,S7_all_history,Random Forest,mh_broken_bone,0.001573794939444817,22,129
+five_class,S7_all_history,Random Forest,su_cannabinoids,0.0015018653920952686,23,129
+five_class,S7_all_history,Random Forest,"su_drug user, type unknown",0.0014892624270644462,24,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:current everyd,0.0013650391686009507,25,129
+five_class,S7_all_history,Random Forest,med_d7646.0,0.001276188712374763,26,129
+five_class,S7_all_history,Random Forest,dx_copd,0.0012123777610180638,27,129
+five_class,S7_all_history,Random Forest,env_drinking status:previous hig,0.0010500062495012242,28,129
+five_class,S7_all_history,Random Forest,med_d6809.0,0.000997836704197231,29,129
+five_class,S7_all_history,Random Forest,su_cocaine,0.00099700855608059,30,129
+five_class,S7_all_history,Random Forest,dx_diabetes type ii,0.000976474152080819,31,129
+five_class,S7_all_history,Random Forest,dx_asthma,0.0009099187540158252,32,129
+five_class,S7_all_history,Random Forest,med_d2598.0,0.0008821129336968806,33,129
+five_class,S7_all_history,Random Forest,med_d6470.0,0.0008089812241591366,34,129
+five_class,S7_all_history,Random Forest,med_d596.0,0.0007794875509776779,35,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:heavy tobacco ,0.0007728488750241701,36,129
+five_class,S7_all_history,Random Forest,dx_hyperlipedimia,0.0007592746941108865,37,129
+five_class,S7_all_history,Random Forest,dx_diabetes type i,0.0006827982220806276,38,129
+five_class,S7_all_history,Random Forest,med_d39993.0,0.0006302086276596746,39,129
+five_class,S7_all_history,Random Forest,med_d10737.0,0.0006229040150966717,40,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:light tobacco ,0.0006194738826719894,41,129
+five_class,S7_all_history,Random Forest,dx_chronic heart failure,0.0005910520406358477,42,129
+five_class,S7_all_history,Random Forest,med_d5640.0,0.0005791272006949077,43,129
+five_class,S7_all_history,Random Forest,env_drinking status:never drank,0.0005784985966703973,44,129
+five_class,S7_all_history,Random Forest,su_other stimulants,0.0005370024141598445,45,129
+five_class,S7_all_history,Random Forest,med_d161.0,0.0005235528044164855,46,129
+five_class,S7_all_history,Random Forest,env_drinking status:unknown if e,0.0004433920257399951,47,129
+five_class,S7_all_history,Random Forest,dx_cirrhosis of the liver,0.00036010958516923984,48,129
+five_class,S7_all_history,Random Forest,dx_hepatitis c,0.0003263802641269225,49,129
+five_class,S7_all_history,Random Forest,dx_stroke,0.00029260132998945376,50,129
+five_class,S7_all_history,Random Forest,dx_arthritis,0.00026785272563754317,51,129
+five_class,S7_all_history,Random Forest,"su_former drug user, type unkno",0.00026594242826224074,52,129
+five_class,S7_all_history,Random Forest,med_d3322.0,0.00025936080805680163,53,129
+five_class,S7_all_history,Random Forest,su_former cannabinoids drug use,0.00024306730160534857,54,129
+five_class,S7_all_history,Random Forest,dx_non-epileptic seizures,0.00022402120400642674,55,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:former tobacco,0.00020645253241110339,56,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:current some d,0.00013950457509861043,57,129
+five_class,S7_all_history,Random Forest,su_sedative hypnotics/depressan,0.00013460663943042861,58,129
+five_class,S7_all_history,Random Forest,dx_schizophrenia,0.00011301040723760794,59,129
+five_class,S7_all_history,Random Forest,su_other psychoactive substance,9.7479388691382e-05,60,129
+five_class,S7_all_history,Random Forest,dx_epilepsy,7.436980875731752e-05,61,129
+five_class,S7_all_history,Random Forest,dx_myocardial infarction,1.932629523502655e-05,62,129
+five_class,S7_all_history,Random Forest,dx_osteoporosis,0.0,63,129
+five_class,S7_all_history,Random Forest,dx_staphylococcus aureus,0.0,64,129
+five_class,S7_all_history,Random Forest,dx_hiv/aids,0.0,65,129
+five_class,S7_all_history,Random Forest,dx_dementia,0.0,66,129
+five_class,S7_all_history,Random Forest,dx_autoimmune diseases,0.0,67,129
+broad_three_class,S7_all_history,LightGBM,age_years,0.4026271836164051,1,129
+broad_three_class,S7_all_history,LightGBM,med_na,0.2764354661549131,2,129
+broad_three_class,S7_all_history,LightGBM,su_na,0.12366621566554048,3,129
+broad_three_class,S7_all_history,LightGBM,env_drinking status:high risk,0.12273001925562237,4,129
+broad_three_class,S7_all_history,LightGBM,dx_hypertension,0.11791142665206822,5,129
+broad_three_class,S7_all_history,LightGBM,n_meds,0.1054444934705319,6,129
+broad_three_class,S7_all_history,LightGBM,"env_drinking status:drinker, cur",0.07867080532040395,7,129
+broad_three_class,S7_all_history,LightGBM,su_opiods,0.060761548766934875,8,129
+broad_three_class,S7_all_history,LightGBM,female,0.056161921699603934,9,129
+broad_three_class,S7_all_history,LightGBM,med_d25480.0,0.030006867998158205,10,129
+broad_three_class,S7_all_history,LightGBM,dx_coronary artery disease,0.029984601132031937,11,129
+broad_three_class,S7_all_history,LightGBM,med_d7804.0,0.028315552289972904,12,129
+broad_three_class,S7_all_history,LightGBM,dx_mental illness,0.027980859068231848,13,129
+broad_three_class,S7_all_history,LightGBM,mh_implant,0.027624860549528965,14,129
+broad_three_class,S7_all_history,LightGBM,"env_tobacco usage:tobacco user, ",0.026922338872249752,15,129
+broad_three_class,S7_all_history,LightGBM,dx_copd,0.019177116146154447,16,129
+broad_three_class,S7_all_history,LightGBM,med_d6470.0,0.01852089484202071,17,129
+broad_three_class,S7_all_history,LightGBM,dx_asthma,0.017471017372767933,18,129
+broad_three_class,S7_all_history,LightGBM,env_tobacco usage:current everyd,0.0174594815726568,19,129
+broad_three_class,S7_all_history,LightGBM,mh_broken_bone,0.017170065934536752,20,129
+broad_three_class,S7_all_history,LightGBM,mh_surgery,0.01684664474977907,21,129
+broad_three_class,S7_all_history,LightGBM,med_d5489.0,0.01549653331891158,22,129
+broad_three_class,S7_all_history,LightGBM,dx_diabetes type i,0.01483114073861134,23,129
+broad_three_class,S7_all_history,LightGBM,"su_drug user, type unknown",0.014731560958534992,24,129
+broad_three_class,S7_all_history,LightGBM,env_tobacco usage:heavy tobacco ,0.014008803872551151,25,129
+broad_three_class,S7_all_history,LightGBM,env_tobacco usage:light tobacco ,0.013533293527548016,26,129
+broad_three_class,S7_all_history,LightGBM,mh_radiation_therapy,0.012636147679995139,27,129
+broad_three_class,S7_all_history,LightGBM,su_cocaine,0.010078846380256676,28,129
+broad_three_class,S7_all_history,LightGBM,med_d5640.0,0.009053769521448705,29,129
+broad_three_class,S7_all_history,LightGBM,med_d10737.0,0.0068048414636531,30,129
+broad_three_class,S7_all_history,LightGBM,env_drinking status:low risk,0.0059082486091326545,31,129
+broad_three_class,S7_all_history,LightGBM,mh_facial_trauma,0.005564861379684198,32,129
+broad_three_class,S7_all_history,LightGBM,env_tobacco usage:former tobacco,0.005544070556418171,33,129
+broad_three_class,S7_all_history,LightGBM,med_d596.0,0.005141123684417243,34,129
+broad_three_class,S7_all_history,LightGBM,env_drinking status:previous hig,0.004691287158261354,35,129
+broad_three_class,S7_all_history,LightGBM,med_d161.0,0.004472213090800083,36,129
+broad_three_class,S7_all_history,LightGBM,su_other stimulants,0.004455253480766769,37,129
+broad_three_class,S7_all_history,LightGBM,dx_hepatitis c,0.004007923334902264,38,129
+broad_three_class,S7_all_history,LightGBM,med_d39993.0,0.003667699741581198,39,129
+broad_three_class,S7_all_history,LightGBM,dx_diabetes type ii,0.0033689129804619134,40,129
+broad_three_class,S7_all_history,LightGBM,med_d2598.0,0.002887271610368129,41,129
+broad_three_class,S7_all_history,LightGBM,su_cannabinoids,0.0020633086015979783,42,129
+broad_three_class,S7_all_history,LightGBM,dx_hyperlipedimia,0.0019752512421912886,43,129
+broad_three_class,S7_all_history,LightGBM,med_d29046.0,0.001178160964769908,44,129
+broad_three_class,S7_all_history,LightGBM,med_d6809.0,0.0011430894275036212,45,129
+broad_three_class,S7_all_history,LightGBM,med_d7646.0,0.00023815955471317732,46,129
+broad_three_class,S7_all_history,LightGBM,env_drinking status:never drank,0.00017201537076230971,47,129
+broad_three_class,S7_all_history,LightGBM,env_drinking status:unknown if e,0.0,48,129
+broad_three_class,S7_all_history,LightGBM,env_tobacco usage:current some d,0.0,49,129
+broad_three_class,S7_all_history,LightGBM,med_d3322.0,0.0,50,129
+broad_three_class,S7_all_history,LightGBM,su_other psychoactive substance,0.0,51,129
+broad_three_class,S7_all_history,LightGBM,su_former cannabinoids drug use,0.0,52,129
+broad_three_class,S7_all_history,LightGBM,"su_former drug user, type unkno",0.0,53,129
+broad_three_class,S7_all_history,LightGBM,su_sedative hypnotics/depressan,0.0,54,129
+broad_three_class,S7_all_history,LightGBM,dx_myocardial infarction,0.0,55,129
+broad_three_class,S7_all_history,LightGBM,dx_staphylococcus aureus,0.0,56,129
+broad_three_class,S7_all_history,LightGBM,dx_stroke,0.0,57,129
+broad_three_class,S7_all_history,LightGBM,dx_schizophrenia,0.0,58,129
+broad_three_class,S7_all_history,LightGBM,dx_osteoporosis,0.0,59,129
+broad_three_class,S7_all_history,LightGBM,dx_non-epileptic seizures,0.0,60,129
+broad_three_class,S7_all_history,LightGBM,dx_dementia,0.0,61,129
+broad_three_class,S7_all_history,LightGBM,dx_hiv/aids,0.0,62,129
+broad_three_class,S7_all_history,LightGBM,dx_epilepsy,0.0,63,129
+broad_three_class,S7_all_history,LightGBM,dx_autoimmune diseases,0.0,64,129
+broad_three_class,S7_all_history,LightGBM,dx_chronic heart failure,0.0,65,129
+broad_three_class,S7_all_history,LightGBM,dx_cirrhosis of the liver,0.0,66,129
+broad_three_class,S7_all_history,LightGBM,dx_arthritis,0.0,67,129
+trauma_subtype,S6_medications,LightGBM,age_years,0.4779417740805097,1,44
+trauma_subtype,S6_medications,LightGBM,med_na,0.09523545963923553,2,44
+trauma_subtype,S6_medications,LightGBM,n_meds,0.06438629396896324,3,44
+trauma_subtype,S6_medications,LightGBM,female,0.04093885490753936,4,44
+trauma_subtype,S6_medications,LightGBM,med_d7804.0,0.0,5,44
+trauma_subtype,S6_medications,LightGBM,med_d7646.0,0.0,6,44
+trauma_subtype,S6_medications,LightGBM,med_d5640.0,0.0,7,44
+trauma_subtype,S6_medications,LightGBM,med_d6809.0,0.0,8,44
+trauma_subtype,S6_medications,LightGBM,med_d6470.0,0.0,9,44
+trauma_subtype,S6_medications,LightGBM,med_d596.0,0.0,10,44
+trauma_subtype,S6_medications,LightGBM,med_d3322.0,0.0,11,44
+trauma_subtype,S6_medications,LightGBM,med_d39993.0,0.0,12,44
+trauma_subtype,S6_medications,LightGBM,med_d5489.0,0.0,13,44
+trauma_subtype,S6_medications,LightGBM,med_d29046.0,0.0,14,44
+trauma_subtype,S6_medications,LightGBM,med_d161.0,0.0,15,44
+trauma_subtype,S6_medications,LightGBM,med_d25480.0,0.0,16,44
+trauma_subtype,S6_medications,LightGBM,med_d2598.0,0.0,17,44
+trauma_subtype,S6_medications,LightGBM,med_d10737.0,0.0,18,44

@@ -1,0 +1,68 @@
+task,scenario,model,feature,mean_abs_shap,rank,validation_n
+five_class,S7_all_history,Random Forest,med_na,0.03505605617438319,1,129
+five_class,S7_all_history,Random Forest,age_years,0.024780091309916197,2,129
+five_class,S7_all_history,Random Forest,n_meds,0.02064271992432436,3,129
+five_class,S7_all_history,Random Forest,dx_hypertension,0.016253183937846978,4,129
+five_class,S7_all_history,Random Forest,env_drinking status:high risk,0.013401326390693507,5,129
+five_class,S7_all_history,Random Forest,su_na,0.013299714014716149,6,129
+five_class,S7_all_history,Random Forest,"env_drinking status:drinker, cur",0.012481554544473422,7,129
+five_class,S7_all_history,Random Forest,su_opiods,0.008916381455107703,8,129
+five_class,S7_all_history,Random Forest,dx_mental illness,0.0073629161530706175,9,129
+five_class,S7_all_history,Random Forest,female,0.004615289693446609,10,129
+five_class,S7_all_history,Random Forest,mh_surgery,0.0036960108281715955,11,129
+five_class,S7_all_history,Random Forest,mh_facial_trauma,0.0029341730336798445,12,129
+five_class,S7_all_history,Random Forest,mh_implant,0.002644641238803832,13,129
+five_class,S7_all_history,Random Forest,med_d7804.0,0.002460569314699841,14,129
+five_class,S7_all_history,Random Forest,dx_coronary artery disease,0.0022508880261336477,15,129
+five_class,S7_all_history,Random Forest,"env_tobacco usage:tobacco user, ",0.002189514148156617,16,129
+five_class,S7_all_history,Random Forest,med_d29046.0,0.002014727244730747,17,129
+five_class,S7_all_history,Random Forest,mh_radiation_therapy,0.0020039260839532285,18,129
+five_class,S7_all_history,Random Forest,med_d5489.0,0.0019231025252322187,19,129
+five_class,S7_all_history,Random Forest,env_drinking status:low risk,0.0018267202815600825,20,129
+five_class,S7_all_history,Random Forest,med_d25480.0,0.001629746510635056,21,129
+five_class,S7_all_history,Random Forest,mh_broken_bone,0.001573794939444817,22,129
+five_class,S7_all_history,Random Forest,su_cannabinoids,0.0015018653920952686,23,129
+five_class,S7_all_history,Random Forest,"su_drug user, type unknown",0.0014892624270644462,24,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:current everyd,0.0013650391686009507,25,129
+five_class,S7_all_history,Random Forest,med_d7646.0,0.001276188712374763,26,129
+five_class,S7_all_history,Random Forest,dx_copd,0.0012123777610180638,27,129
+five_class,S7_all_history,Random Forest,env_drinking status:previous hig,0.0010500062495012242,28,129
+five_class,S7_all_history,Random Forest,med_d6809.0,0.000997836704197231,29,129
+five_class,S7_all_history,Random Forest,su_cocaine,0.00099700855608059,30,129
+five_class,S7_all_history,Random Forest,dx_diabetes type ii,0.000976474152080819,31,129
+five_class,S7_all_history,Random Forest,dx_asthma,0.0009099187540158252,32,129
+five_class,S7_all_history,Random Forest,med_d2598.0,0.0008821129336968806,33,129
+five_class,S7_all_history,Random Forest,med_d6470.0,0.0008089812241591366,34,129
+five_class,S7_all_history,Random Forest,med_d596.0,0.0007794875509776779,35,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:heavy tobacco ,0.0007728488750241701,36,129
+five_class,S7_all_history,Random Forest,dx_hyperlipedimia,0.0007592746941108865,37,129
+five_class,S7_all_history,Random Forest,dx_diabetes type i,0.0006827982220806276,38,129
+five_class,S7_all_history,Random Forest,med_d39993.0,0.0006302086276596746,39,129
+five_class,S7_all_history,Random Forest,med_d10737.0,0.0006229040150966717,40,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:light tobacco ,0.0006194738826719894,41,129
+five_class,S7_all_history,Random Forest,dx_chronic heart failure,0.0005910520406358477,42,129
+five_class,S7_all_history,Random Forest,med_d5640.0,0.0005791272006949077,43,129
+five_class,S7_all_history,Random Forest,env_drinking status:never drank,0.0005784985966703973,44,129
+five_class,S7_all_history,Random Forest,su_other stimulants,0.0005370024141598445,45,129
+five_class,S7_all_history,Random Forest,med_d161.0,0.0005235528044164855,46,129
+five_class,S7_all_history,Random Forest,env_drinking status:unknown if e,0.0004433920257399951,47,129
+five_class,S7_all_history,Random Forest,dx_cirrhosis of the liver,0.00036010958516923984,48,129
+five_class,S7_all_history,Random Forest,dx_hepatitis c,0.0003263802641269225,49,129
+five_class,S7_all_history,Random Forest,dx_stroke,0.00029260132998945376,50,129
+five_class,S7_all_history,Random Forest,dx_arthritis,0.00026785272563754317,51,129
+five_class,S7_all_history,Random Forest,"su_former drug user, type unkno",0.00026594242826224074,52,129
+five_class,S7_all_history,Random Forest,med_d3322.0,0.00025936080805680163,53,129
+five_class,S7_all_history,Random Forest,su_former cannabinoids drug use,0.00024306730160534857,54,129
+five_class,S7_all_history,Random Forest,dx_non-epileptic seizures,0.00022402120400642674,55,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:former tobacco,0.00020645253241110339,56,129
+five_class,S7_all_history,Random Forest,env_tobacco usage:current some d,0.00013950457509861043,57,129
+five_class,S7_all_history,Random Forest,su_sedative hypnotics/depressan,0.00013460663943042861,58,129
+five_class,S7_all_history,Random Forest,dx_schizophrenia,0.00011301040723760794,59,129
+five_class,S7_all_history,Random Forest,su_other psychoactive substance,9.7479388691382e-05,60,129
+five_class,S7_all_history,Random Forest,dx_epilepsy,7.436980875731752e-05,61,129
+five_class,S7_all_history,Random Forest,dx_myocardial infarction,1.932629523502655e-05,62,129
+five_class,S7_all_history,Random Forest,dx_osteoporosis,0.0,63,129
+five_class,S7_all_history,Random Forest,dx_staphylococcus aureus,0.0,64,129
+five_class,S7_all_history,Random Forest,dx_hiv/aids,0.0,65,129
+five_class,S7_all_history,Random Forest,dx_dementia,0.0,66,129
+five_class,S7_all_history,Random Forest,dx_autoimmune diseases,0.0,67,129

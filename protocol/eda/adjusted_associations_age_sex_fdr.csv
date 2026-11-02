@@ -1,0 +1,351 @@
+feature,class,adjustment,unit,n,odds_ratio,ci_lower,ci_upper,p_value,status,q_value
+age_years,blunt_trauma,Age/sex adjusted,Per 10-year increase,602,0.8225299375124397,0.6824756125470939,0.991325529683352,0.04021988613865104,Estimated,0.2597163185739715
+age_years,firearm,Age/sex adjusted,Per 10-year increase,602,0.8629662116666229,0.6586730987611207,1.1306225863466226,0.28494311514542037,Estimated,0.7774616156388645
+age_years,stab,Age/sex adjusted,Per 10-year increase,602,0.8772471545289119,0.6864978886038259,1.1209977232328865,0.2951277753797108,Estimated,0.5349190928757258
+age_years,cardiac,Age/sex adjusted,Per 10-year increase,602,2.32665602899463,1.8899258671377819,2.864307204522965,1.7039514020833122e-15,Estimated,1.1075684113541529e-13
+age_years,intox,Age/sex adjusted,Per 10-year increase,602,0.7100680990247944,0.612933204749505,0.8225964939503345,5.066798294513186e-06,Estimated,6.485501816976878e-05
+female,blunt_trauma,Age/sex adjusted,Female indicator: 1 vs 0,602,0.6481150162501687,0.3892326318829912,1.079182575872082,0.0954994102012436,Estimated,0.4681661252055064
+female,firearm,Age/sex adjusted,Female indicator: 1 vs 0,602,0.7555621269632049,0.3642029414640392,1.5674616064503404,0.45155493078046816,Estimated,0.7774616156388645
+female,stab,Age/sex adjusted,Female indicator: 1 vs 0,602,0.5541008505271324,0.2722784515447591,1.1276241318877198,0.10338414151468625,Estimated,0.272558191265991
+female,cardiac,Age/sex adjusted,Female indicator: 1 vs 0,602,0.9432206882531432,0.602500762120974,1.476620981551722,0.7982442633620411,Estimated,0.8505881494841422
+female,intox,Age/sex adjusted,Female indicator: 1 vs 0,602,1.66728910630907,1.1551122070063957,2.4065653078164604,0.006331553584728234,Estimated,0.04502438104695633
+cadaver_length,blunt_trauma,Age/sex adjusted,Per 1 SD increase,559,0.8543057698928198,0.6837490340962498,1.0674067707266786,0.1657828103644705,Estimated,0.4681661252055064
+cadaver_length,firearm,Age/sex adjusted,Per 1 SD increase,559,1.0108789210275686,0.7044069572627548,1.4506900910643412,0.9531823078023794,Estimated,0.9770118654974389
+cadaver_length,stab,Age/sex adjusted,Per 1 SD increase,559,0.8453179459139063,0.657826141931208,1.0862481499843326,0.18904944556465653,Estimated,0.36549559475833593
+cadaver_length,cardiac,Age/sex adjusted,Per 1 SD increase,559,1.4795380257648962,1.0881344406351727,2.0117300656401342,0.012461880084870241,Estimated,0.0675018504597138
+cadaver_length,intox,Age/sex adjusted,Per 1 SD increase,559,0.9943799662248356,0.8188877071672098,1.20748120722174,0.9546333688396393,Estimated,0.9983175168618258
+cadaver_weight,blunt_trauma,Age/sex adjusted,Per 1 SD increase,559,0.9991105049060388,0.7935871217345744,1.2578603831571102,0.9939573013165898,Estimated,0.9939573013165898
+cadaver_weight,firearm,Age/sex adjusted,Per 1 SD increase,559,0.8113400475400483,0.5735817959879556,1.147652657993544,0.23735284359588338,Estimated,0.7774616156388645
+cadaver_weight,stab,Age/sex adjusted,Per 1 SD increase,559,0.5038596251277903,0.3489556097856536,0.7275266959882377,0.0002549488847320761,Estimated,0.0073935176572302065
+cadaver_weight,cardiac,Age/sex adjusted,Per 1 SD increase,559,1.9821386005897874,1.5792798185794314,2.4877627040672743,3.5905012638822636e-09,Estimated,7.779419405078237e-08
+cadaver_weight,intox,Age/sex adjusted,Per 1 SD increase,559,0.8274817103213025,0.6917085119640474,0.9899053851051317,0.03836280952195672,Estimated,0.16426953821267587
+bmi_like,blunt_trauma,Age/sex adjusted,Per 1 SD increase,559,1.1327911026014952,0.9434881014755496,1.3600761685560756,0.1813955502301805,Estimated,0.4681661252055064
+bmi_like,firearm,Age/sex adjusted,Per 1 SD increase,559,0.6081181102701513,0.22242305436605855,1.6626317676130793,0.332412069153737,Estimated,0.7774616156388645
+bmi_like,stab,Age/sex adjusted,Per 1 SD increase,559,0.17403139735253684,0.06061868603437143,0.49963021711331,0.0011558113700113417,Estimated,0.01117284324344297
+bmi_like,cardiac,Age/sex adjusted,Per 1 SD increase,559,1.2064072149583076,0.9695886304923595,1.501067898830863,0.09237385948636158,Estimated,0.2444264601386967
+bmi_like,intox,Age/sex adjusted,Per 1 SD increase,559,0.6504885859735715,0.3888559997796444,1.088154485777968,0.10138651183689738,Estimated,0.27036403156505967
+dx_arthritis,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,1.4747697038649017,0.303458481249825,7.167193582726812,0.6300685183828464,Estimated,0.8415312570931799
+dx_arthritis,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_arthritis,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_arthritis,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.920463375579463,0.23020016801706317,3.6805048105800617,0.9066957059926852,Estimated,0.9133214035578966
+dx_arthritis,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.684820356410559,0.4748268094667309,5.978221062461498,0.4194777162447144,Estimated,0.6475498209059612
+dx_asthma,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.27455929502878296,0.03600574568534679,2.093632698110755,0.21236029948723378,Estimated,0.5029586040487116
+dx_asthma,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,1.6149086214689434,0.35811461471648137,7.282388789855493,0.5328329987265885,Estimated,0.7802197481353617
+dx_asthma,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.5947150182919996,0.0772970318398784,4.575673147640615,0.6176461120635276,Estimated,0.7787711847757521
+dx_asthma,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,3.245438763076559,1.169228529357704,9.008395279805532,0.02381136624816528,Estimated,0.1190568312408264
+dx_asthma,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.5899291227283736,0.21672116485086468,1.6058254858613086,0.3016230959183872,Estimated,0.5292749687010172
+dx_autoimmune diseases,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_autoimmune diseases,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_autoimmune diseases,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_autoimmune diseases,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_autoimmune diseases,intox,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_chronic heart failure,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_chronic heart failure,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_chronic heart failure,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_chronic heart failure,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,11.195345032998443,1.8891447739322955,66.34523311148558,0.00779788912491242,Estimated,0.05631808812436748
+dx_chronic heart failure,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.389970783508176,0.0762566153715125,1.994282217340488,0.25806949286462744,Estimated,0.5004984104041259
+dx_cirrhosis of the liver,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.9768485548206656,0.20859143710751632,4.574651348527664,0.9762779455332016,Estimated,0.9939573013165898
+dx_cirrhosis of the liver,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_cirrhosis of the liver,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.8940028912060068,0.11229046120087396,7.117623001431564,0.9156967178056674,Estimated,0.9156967178056674
+dx_cirrhosis of the liver,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.8152581327186043,0.20227451804049365,3.285860371353197,0.7739542951468165,Estimated,0.8493526493429243
+dx_cirrhosis of the liver,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.6855447068526888,0.5277380434079701,5.383468170026966,0.3782068900430057,Estimated,0.605131024068809
+dx_copd,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_copd,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.9894229264104868,0.12519826808587547,7.819259341792243,0.9919559661216196,Estimated,0.9919559661216196
+dx_copd,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_copd,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,5.074741112655843,1.6280364323453336,15.818440453067716,0.005106675110030086,Estimated,0.04149173526899445
+dx_copd,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.5496340479000903,0.17132563182838131,1.7632947468925904,0.31425701266622896,Estimated,0.5292749687010172
+dx_coronary artery disease,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_coronary artery disease,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_coronary artery disease,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_coronary artery disease,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,5.268210008624603,1.9997771933589563,13.878564465651769,0.0007729454283238694,Estimated,0.012560363210262876
+dx_coronary artery disease,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.7219638991966342,0.2827431772194087,1.8434816955414335,0.49578033163112656,Estimated,0.6475498209059612
+dx_dementia,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_dementia,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_dementia,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_dementia,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_dementia,intox,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_diabetes type i,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.771992682930562,0.17089948120960002,3.487270401759705,0.7365933468562211,Estimated,0.9207416835702764
+dx_diabetes type i,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.9341919972524321,0.11948672949905008,7.303862875729862,0.9482697550707802,Estimated,0.9770118654974389
+dx_diabetes type i,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_diabetes type i,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,4.146512284587158,1.3921357080540986,12.350494299341731,0.010645515300720597,Estimated,0.0650915815560186
+dx_diabetes type i,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.45425856236252776,0.14202639258742375,1.4529048983107284,0.18343765053901595,Estimated,0.39996605386838435
+dx_diabetes type ii,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.6386479716220628,0.18706927892375966,2.180321825173675,0.4741373793642607,Estimated,0.7653599581182586
+dx_diabetes type ii,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.5011221343382836,0.06565925436642747,3.8246458316797414,0.5052175918279243,Estimated,0.7802197481353617
+dx_diabetes type ii,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_diabetes type ii,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,2.178950602795549,0.9855518803427711,4.817428513019337,0.05434867371500958,Estimated,0.2078037524397425
+dx_diabetes type ii,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.9991521329509311,0.4541775292098063,2.198050146860591,0.9983175168618258,Estimated,0.9983175168618258
+dx_epilepsy,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_epilepsy,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_epilepsy,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_epilepsy,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,7.681955978990065,0.8841769731833993,66.74280087918625,0.06454423510784606,Estimated,0.20976876410049966
+dx_epilepsy,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.9811920691049604,0.13200106097400074,7.2934101390601445,0.9851984632011594,Estimated,0.9983175168618258
+dx_hepatitis c,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,1.1768952640271757,0.3273783558353189,4.230830895816258,0.8029712589812154,Estimated,0.9265052988244792
+dx_hepatitis c,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_hepatitis c,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.6976854968997306,0.08994648201628998,5.411718631708877,0.7305262604371169,Estimated,0.8474104621070556
+dx_hepatitis c,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.6070292050882339,0.16150569269469056,2.2815570750600975,0.459940645705166,Estimated,0.6746617351855237
+dx_hepatitis c,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.9448770695976727,0.6911244876919503,5.473032547984027,0.20761684301989325,Estimated,0.41609803532850487
+dx_hiv/aids,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_hiv/aids,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_hiv/aids,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_hiv/aids,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_hiv/aids,intox,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_hyperlipedimia,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.615238123419998,0.13866658507541324,2.7296983502082,0.5228263345138439,Estimated,0.7653599581182586
+dx_hyperlipedimia,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,1.6468043580331215,0.3586419143868889,7.561761425105823,0.5212395345154082,Estimated,0.7802197481353617
+dx_hyperlipedimia,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_hyperlipedimia,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,2.16982628678649,0.867327126880274,5.428339514485819,0.09777058405547868,Estimated,0.2444264601386967
+dx_hyperlipedimia,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.6783519385284486,0.25296614590596544,1.8190629851172213,0.4406276318388346,Estimated,0.6475498209059612
+dx_hypertension,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.25773486918368915,0.1011216541481109,0.6569044321193425,0.004506963933162186,Estimated,0.050703344248074586
+dx_hypertension,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.5762514945858338,0.19805121936506512,1.6766661981530893,0.3117444765026688,Estimated,0.7774616156388645
+dx_hypertension,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.20322616852626504,0.04821681188909075,0.8565658730997595,0.029936003105836925,Estimated,0.10851801125865886
+dx_hypertension,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,4.523342169674754,2.7555747987772112,7.425174737785135,2.3946257165953296e-09,Estimated,7.779419405078237e-08
+dx_hypertension,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.7341117960596322,0.4537048340669786,1.1878209986943635,0.20804901766425243,Estimated,0.41609803532850487
+dx_mental illness,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.3684208762167273,0.17241016855579172,0.7872734141453945,0.009955817178334193,Estimated,0.08960235460500775
+dx_mental illness,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,1.7933399090637985,0.867171201306369,3.7086886933007435,0.11512831706743831,Estimated,0.7774616156388645
+dx_mental illness,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.3815066412179384,0.13415273168580644,1.0849374102517209,0.07074376150997921,Estimated,0.2051569083789397
+dx_mental illness,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.7321002783263315,0.4185435709078235,1.2805615825443648,0.2743420879263716,Estimated,0.5017343612645236
+dx_mental illness,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.0485548421126127,1.3157818421850582,3.189416973693732,0.001498364499238129,Estimated,0.01598255465854004
+dx_myocardial infarction,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_myocardial infarction,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_myocardial infarction,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_myocardial infarction,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,4.15408084204459,0.5224037600399415,33.032663549210504,0.1782380272946209,Estimated,0.39949902669483994
+dx_myocardial infarction,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.398525169105169,0.18995450152681667,10.296532237455411,0.7419255911375748,Estimated,0.8959101477887697
+dx_non-epileptic seizures,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.5129110715612718,0.06473033405712794,4.064211488510968,0.5272479711481337,Estimated,0.7653599581182586
+dx_non-epileptic seizures,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_non-epileptic seizures,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_non-epileptic seizures,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.4458472369558972,0.3950354305327429,5.291865162053437,0.5775540809448583,Estimated,0.7083210426682224
+dx_non-epileptic seizures,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.8942779591704018,0.5785035826089884,6.202708322766107,0.2911418115267518,Estimated,0.5292749687010172
+dx_osteoporosis,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_osteoporosis,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_osteoporosis,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_osteoporosis,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_osteoporosis,intox,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_schizophrenia,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_schizophrenia,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_schizophrenia,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_schizophrenia,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.738460998436452,0.32105707922948173,9.41342471045299,0.5210827854829516,Estimated,0.677407621127837
+dx_schizophrenia,intox,Age/sex adjusted,Feature present: 1 vs 0,602,4.062406396160347,0.7982864614965857,20.673212591661983,0.0912936425670992,Estimated,0.25403448366497167
+dx_staphylococcus aureus,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_staphylococcus aureus,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_staphylococcus aureus,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_staphylococcus aureus,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,4.240041392063318,0.1419406423626774,126.65823337951485,0.4045576760587022,Estimated,0.6261011653289438
+dx_staphylococcus aureus,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.5521883374856889,0.08741722331047604,27.560800306704067,0.7645149083066296,Estimated,0.9060917431782277
+dx_stroke,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.7435893969593591,0.08928935044354577,6.192509952460421,0.7841173764850273,Estimated,0.9265052988244792
+dx_stroke,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_stroke,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+dx_stroke,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,4.357605291433679,0.937688800919134,20.25056058824402,0.06039252101500546,Estimated,0.20976876410049966
+dx_stroke,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.5596389118120206,0.11078640860509018,2.8270228772426553,0.4824144083811974,Estimated,0.6475498209059612
+mh_surgery,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.6711123423127068,0.37098861431554797,1.2140312630224348,0.18726645008220255,Estimated,0.4681661252055064
+mh_surgery,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,1.1170930901039555,0.5200380095802077,2.3996264676217596,0.7765217591235747,Estimated,0.8843720034462934
+mh_surgery,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.3986256360235581,0.15492288061140955,1.0256870842323056,0.05646865992705866,Estimated,0.18195457087607791
+mh_surgery,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.5134788040861313,0.9295263424099278,2.464285288009414,0.09567857286383147,Estimated,0.2444264601386967
+mh_surgery,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.1712504320859154,0.7700396955793162,1.7815024115469662,0.46005852770923894,Estimated,0.6475498209059612
+mh_implant,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.6928744197838139,0.35176837183471626,1.3647473736391724,0.28874991780113934,Estimated,0.5414060958771363
+mh_implant,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,1.2167639603776494,0.5215480952301248,2.8386922487381505,0.649882849841966,Estimated,0.8595224788232453
+mh_implant,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.4577777566201626,0.16041022869476446,1.306403439240459,0.14416955360977382,Estimated,0.2986369324773886
+mh_implant,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.7206994957599788,0.9993117220186977,2.962846016383712,0.05028675374330719,Estimated,0.2078037524397425
+mh_implant,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.9635913925311034,0.5935019378995356,1.5644571861822685,0.8807673252891954,Estimated,0.9874981753242857
+mh_broken_bone,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.5862016689466506,0.2903443489058615,1.1835339588002611,0.13624267045487157,Estimated,0.4681661252055064
+mh_broken_bone,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,1.1771605274459944,0.5042794005808439,2.7478951267508327,0.7060929629764965,Estimated,0.8749793490934894
+mh_broken_bone,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.4392254327959234,0.1538604220584678,1.2538570883515188,0.12422024223242224,Estimated,0.2986369324773886
+mh_broken_bone,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.5195236824031753,0.87672591199508,2.633607824057404,0.13592764825918427,Estimated,0.31554632631596347
+mh_broken_bone,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.1897445243808957,0.7380836928880674,1.9177933978673982,0.47569630712905364,Estimated,0.6475498209059612
+mh_facial_trauma,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.6823826230620508,0.34649735196851145,1.3438660977107877,0.26905254937512935,Estimated,0.5290684557242085
+mh_facial_trauma,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,1.435987348407089,0.640629156589137,3.2188039579155627,0.3795759240425065,Estimated,0.7774616156388645
+mh_facial_trauma,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.4533785384765387,0.15889363102967727,1.293645930419517,0.13921824017402049,Estimated,0.2986369324773886
+mh_facial_trauma,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.222185278530895,0.6939231499463658,2.1525969484849936,0.48720885411292814,Estimated,0.6746617351855237
+mh_facial_trauma,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.1943063304130543,0.7394336099773012,1.9290002396678747,0.46789287001991664,Estimated,0.6475498209059612
+mh_radiation_therapy,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.6287447640928331,0.275474021267071,1.435053572586764,0.27041276625903987,Estimated,0.5290684557242085
+mh_radiation_therapy,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.9481298069760001,0.32564376728467476,2.7605322784836024,0.9221806158330595,Estimated,0.9770118654974389
+mh_radiation_therapy,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.9305620388188275,0.3540334900929564,2.445942918742763,0.8839537304046153,Estimated,0.9155235064904944
+mh_radiation_therapy,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.4410800458829427,0.7579019396948957,2.7400796724151335,0.2650655100296416,Estimated,0.5017343612645236
+mh_radiation_therapy,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.0387026342157584,0.5912505863988745,1.8247815514197168,0.8949202213876339,Estimated,0.9874981753242857
+su_cannabinoids,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.5422654808831269,0.2376625317430962,1.2372663440077596,0.145909738423227,Estimated,0.4681661252055064
+su_cannabinoids,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.6015919635218607,0.17956312570897218,2.015518994476961,0.4100498377349643,Estimated,0.7774616156388645
+su_cannabinoids,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.6275834013828767,0.2173381825769585,1.8122030883912288,0.38918666117153566,Estimated,0.6202688755714448
+su_cannabinoids,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.0494870179765448,0.5264822642529713,2.0920419844799825,0.8908440737616887,Estimated,0.9133214035578966
+su_cannabinoids,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.7604821629109988,1.0161713761245799,3.0499751505968646,0.043673065091451274,Estimated,0.16631458037855112
+su_cocaine,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.47789875933928166,0.14183142332849888,1.6102723840615487,0.2335244517712768,Estimated,0.52374505610439
+su_cocaine,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.4017060925026454,0.053383873466748805,3.0227814932585395,0.37576388170480535,Estimated,0.7774616156388645
+su_cocaine,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.6589358793780665,0.15239513140476543,2.849149373273012,0.5765750791466375,Estimated,0.7787711847757521
+su_cocaine,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.1903020120255277,0.4865476630617601,2.9119837323156053,0.7027116434726113,Estimated,0.798228269061753
+su_cocaine,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.7132047295385333,0.8130975821852017,3.6097394822220354,0.15681688417563233,Estimated,0.37171409582372106
+"su_drug user, type unknown",blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.7390210772711171,0.2113632386459622,2.583950530611326,0.6358236164704025,Estimated,0.8415312570931799
+"su_drug user, type unknown",firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+"su_drug user, type unknown",stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+"su_drug user, type unknown",cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.789123091021549,0.5987540566150235,5.346037157431071,0.29759054986154543,Estimated,0.5187244133249713
+"su_drug user, type unknown",intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.9054791512551343,0.7516175212675217,4.8307160133054765,0.17433309669548835,Estimated,0.3984756495896877
+su_former cannabinoids drug use,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_former cannabinoids drug use,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_former cannabinoids drug use,stab,Age/sex adjusted,Feature present: 1 vs 0,602,1.1857371295492385,0.1458027321364132,9.642978014131028,0.8734162343767709,Estimated,0.9155235064904944
+su_former cannabinoids drug use,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.444502837519267,0.3382999391374174,6.167865276362471,0.6194899060657422,Estimated,0.7456822943383933
+su_former cannabinoids drug use,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.0124205162621163,0.5467713325855457,7.406819072100971,0.29284150896274663,Estimated,0.5292749687010172
+"su_former drug user, type unkno",blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,1.669844128599102,0.16854273975324383,16.544049407878624,0.6612321533183394,Estimated,0.8501556256950078
+"su_former drug user, type unkno",firearm,Age/sex adjusted,Feature present: 1 vs 0,602,4.513741168612527,0.45384429490718825,44.891738346945765,0.1984640690669054,Estimated,0.7774616156388645
+"su_former drug user, type unkno",stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+"su_former drug user, type unkno",cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,3.1570446573271793,0.3957542517020207,25.184646596955805,0.2778836462388131,Estimated,0.5017343612645236
+"su_former drug user, type unkno",intox,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_na,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,2.663712660179779,1.4777080290748599,4.801601531829119,0.0011183453918374251,Estimated,0.01677518087756138
+su_na,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,2.523132274680001,1.0377957223065315,6.134344494485692,0.041166607208902674,Estimated,0.7774616156388645
+su_na,stab,Age/sex adjusted,Feature present: 1 vs 0,602,3.382254314588151,1.4090578833244352,8.118647490591547,0.006379713936442545,Estimated,0.03700234083136676
+su_na,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.9145137113301979,0.5687783209100751,1.4704064790527742,0.7122652247012566,Estimated,0.798228269061753
+su_na,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.3649311679375349,0.24810566717726898,0.5367662852985188,3.047028821679155e-07,Estimated,6.500328152915531e-06
+su_opiods,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.33394390155267967,0.11699767994178088,0.9531687247107675,0.04040031622261779,Estimated,0.2597163185739715
+su_opiods,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_opiods,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_opiods,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.4904634925411328,0.1964421974535728,1.2245558267718855,0.12699647124126667,Estimated,0.3057322455808272
+su_opiods,intox,Age/sex adjusted,Feature present: 1 vs 0,602,6.413404111797707,3.1104919371442077,13.223552136575364,4.810585019864337e-07,Estimated,7.696936031782939e-06
+su_other psychoactive substance,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_other psychoactive substance,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_other psychoactive substance,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_other psychoactive substance,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_other psychoactive substance,intox,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_other stimulants,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.4145903745738677,0.09413713242716751,1.825902003359673,0.24441435951538204,Estimated,0.52374505610439
+su_other stimulants,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.55887350717177,0.07261537818039715,4.301287204516577,0.5762909198953335,Estimated,0.7875975905236225
+su_other stimulants,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.42210359370122624,0.055101055380243374,3.233539586237648,0.4063830564088776,Estimated,0.6202688755714448
+su_other stimulants,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.6759990205056554,0.18033815747661822,2.5339877157381667,0.5613650030477239,Estimated,0.7017062538096548
+su_other stimulants,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.701819065211949,1.05398974441921,6.925898757359603,0.03850067301859591,Estimated,0.16426953821267587
+su_sedative hypnotics/depressan,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_sedative hypnotics/depressan,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_sedative hypnotics/depressan,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+su_sedative hypnotics/depressan,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.4747459035975427,0.050866448668937546,4.430890673134051,0.5132868278270374,Estimated,0.677407621127837
+su_sedative hypnotics/depressan,intox,Age/sex adjusted,Feature present: 1 vs 0,602,7.780974131660439,0.8896554647744741,68.05281463978481,0.06369255255471645,Estimated,0.18528742561372058
+"env_drinking status:drinker, cur",blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,1.4891215010685952,0.8393432940576768,2.641925968365941,0.17342869375247583,Estimated,0.4681661252055064
+"env_drinking status:drinker, cur",firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.2759841967591287,0.06512199194409188,1.169609137972501,0.08057527319400502,Estimated,0.7774616156388645
+"env_drinking status:drinker, cur",stab,Age/sex adjusted,Feature present: 1 vs 0,602,2.3599016065970977,1.2101214077289153,4.6021296352994785,0.011746021119100464,Estimated,0.05677243540898558
+"env_drinking status:drinker, cur",cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.733883609150021,0.37597353488691987,1.4325081469924448,0.3645624738656402,Estimated,0.5924140200316653
+"env_drinking status:drinker, cur",intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.794885548970886,0.4805914130096048,1.3147197782955793,0.3712278385503144,Estimated,0.605131024068809
+env_drinking status:high risk,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.6381079888983623,0.3680643322097988,1.1062789025257043,0.1095478262319857,Estimated,0.4681661252055064
+env_drinking status:high risk,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.7231061574712961,0.3274386264603986,1.5968870888118691,0.42252253107474735,Estimated,0.7774616156388645
+env_drinking status:high risk,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.11061588606943182,0.026568398505699604,0.4605424089939261,0.0024826840419379776,Estimated,0.01799945930405034
+env_drinking status:high risk,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.6044362409799139,0.3628307968405605,1.0069243641698695,0.05317474221246589,Estimated,0.2078037524397425
+env_drinking status:high risk,intox,Age/sex adjusted,Feature present: 1 vs 0,602,3.178884824406331,2.1219244510901567,4.762332005575967,2.0465828957799586e-08,Estimated,6.549065266495867e-07
+env_drinking status:low risk,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,1.3258173108318865,0.5547533221298899,3.1686002977913224,0.5257829842233386,Estimated,0.7653599581182586
+env_drinking status:low risk,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.3893312354637785,0.05180274026385892,2.9260770788510544,0.35931436468248334,Estimated,0.7774616156388645
+env_drinking status:low risk,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.6305686913566091,0.14612373252853875,2.7210971663451704,0.5364847282754143,Estimated,0.7779028559993506
+env_drinking status:low risk,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.364782704917355,0.5821429270203625,3.199612578263586,0.47435817505732514,Estimated,0.6746617351855237
+env_drinking status:low risk,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.9485705464236125,0.4519813120139292,1.9907594797075616,0.8889774833271478,Estimated,0.9874981753242857
+env_drinking status:never drank,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.5301779104624713,0.06658534864694748,4.221478485195831,0.5488703201513017,Estimated,0.7718488877127679
+env_drinking status:never drank,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,3.2571989306135407,0.6706597764758864,15.819265215723657,0.14304668159534797,Estimated,0.7774616156388645
+env_drinking status:never drank,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_drinking status:never drank,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,3.0859902592096806,0.8658220438200612,10.999183894555836,0.08224383885334556,Estimated,0.24299316024852097
+env_drinking status:never drank,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.34972408114426407,0.07332112239304808,1.6680995726791588,0.18748408775080516,Estimated,0.39996605386838435
+env_drinking status:previous hig,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,1.182057324016399,0.3245750072652856,4.30488942766559,0.799777198777103,Estimated,0.9265052988244792
+env_drinking status:previous hig,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,2.0074275692778074,0.4348053830305783,9.26797506003555,0.3719264090807498,Estimated,0.7774616156388645
+env_drinking status:previous hig,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_drinking status:previous hig,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.4670185145883903,0.46348488215979033,4.6433948656887525,0.5144618277917137,Estimated,0.677407621127837
+env_drinking status:previous hig,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.7793982101037985,0.2580973986034744,2.353613686925504,0.6584857766366348,Estimated,0.8104440327835505
+env_drinking status:unknown if e,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_drinking status:unknown if e,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_drinking status:unknown if e,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_drinking status:unknown if e,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,5.540687543704405,0.779855871489521,39.36524629650579,0.08699792204587184,Estimated,0.2444264601386967
+env_drinking status:unknown if e,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.006702705908577,0.16210494095801142,6.251816459722567,0.9942793578281514,Estimated,0.9983175168618258
+env_tobacco usage:current everyd,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_tobacco usage:current everyd,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_tobacco usage:current everyd,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.8756169133681284,0.19984019731407962,3.836590382120839,0.8601259870072091,Estimated,0.9155235064904944
+env_tobacco usage:current everyd,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.7188324933422543,0.7213904148578196,4.095403930133223,0.22142037277002546,Estimated,0.4642685235500534
+env_tobacco usage:current everyd,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.8581231606498907,0.8283904148218785,4.167867732856283,0.1327844062093259,Estimated,0.32685392297680227
+env_tobacco usage:current some d,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_tobacco usage:current some d,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_tobacco usage:current some d,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_tobacco usage:current some d,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,3.058119307180793,0.5157082918789249,18.134464471918097,0.2183878275638501,Estimated,0.4642685235500534
+env_tobacco usage:current some d,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.775582754881758,0.34373091350904234,9.171983070270334,0.4931497926061551,Estimated,0.6475498209059612
+env_tobacco usage:former tobacco,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,1.1573867989624738,0.24532608104336215,5.460260061692475,0.8534886906331388,Estimated,0.9457487094419459
+env_tobacco usage:former tobacco,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_tobacco usage:former tobacco,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_tobacco usage:former tobacco,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.7167029390605946,0.48889551143447335,6.028013986735648,0.3990607138547707,Estimated,0.6261011653289438
+env_tobacco usage:former tobacco,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.0413901136788284,0.31686700728187994,3.4225506093894307,0.9467341916738462,Estimated,0.9983175168618258
+env_tobacco usage:heavy tobacco ,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.6704601105376696,0.25517174183302965,1.7616243734242454,0.41728109387796675,Estimated,0.7222172778657118
+env_tobacco usage:heavy tobacco ,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.6578127571029448,0.15292181372967512,2.8296657805295644,0.5736668048496263,Estimated,0.7875975905236225
+env_tobacco usage:heavy tobacco ,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.7955378857695987,0.2360683088074538,2.6809211744341517,0.7121111279731991,Estimated,0.8474104621070556
+env_tobacco usage:heavy tobacco ,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.2963158000676391,0.6227048681110109,2.698605293712637,0.4878323315956864,Estimated,0.6746617351855237
+env_tobacco usage:heavy tobacco ,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.188230819044239,0.6171811851082688,2.2876466642107083,0.605830558582912,Estimated,0.7602579558687523
+env_tobacco usage:light tobacco ,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.5886430781586743,0.13177101156836946,2.6295667714771778,0.48771339200071173,Estimated,0.7653599581182586
+env_tobacco usage:light tobacco ,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_tobacco usage:light tobacco ,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+env_tobacco usage:light tobacco ,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.736271593851366,0.19741198750427105,2.7460128777676296,0.6484825520389748,Estimated,0.7663884705915156
+env_tobacco usage:light tobacco ,intox,Age/sex adjusted,Feature present: 1 vs 0,602,3.6216890781450393,1.2367935772019358,10.605352437574524,0.018890127877810435,Estimated,0.10074734868165565
+"env_tobacco usage:tobacco user, ",blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.9710903492448917,0.4157411168093056,2.2682780900622674,0.9459640651224456,Estimated,0.9899623937327918
+"env_tobacco usage:tobacco user, ",firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.2986391269018058,0.03998782734240351,2.230311923501275,0.23876894479805366,Estimated,0.7774616156388645
+"env_tobacco usage:tobacco user, ",stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.49745638800684505,0.11636450455602172,2.126618068911899,0.3461765009930725,Estimated,0.5905363840470061
+"env_tobacco usage:tobacco user, ",cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,2.605114940421293,1.2451771250905397,5.450328082691663,0.011015498417172379,Estimated,0.0650915815560186
+"env_tobacco usage:tobacco user, ",intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.7736243955710849,0.39705233246708677,1.5073446407025903,0.45072411424438297,Estimated,0.6475498209059612
+n_meds,blunt_trauma,Age/sex adjusted,Per 1 SD increase,602,0.2782346835142893,0.13725316755412226,0.5640273407881118,0.0003876300703271401,Estimated,0.008721676582360652
+n_meds,firearm,Age/sex adjusted,Per 1 SD increase,602,0.8852434272362507,0.606164849531084,1.2928099114806844,0.5281388084815426,Estimated,0.7802197481353617
+n_meds,stab,Age/sex adjusted,Per 1 SD increase,602,0.04009754814118691,0.002377441673318739,0.6762787852920948,0.02565768996265311,Estimated,0.10629614413099145
+n_meds,cardiac,Age/sex adjusted,Per 1 SD increase,602,1.3538623542118062,1.1262033482337963,1.6275420216309118,0.001258490816584213,Estimated,0.016360380615594767
+n_meds,intox,Age/sex adjusted,Per 1 SD increase,602,1.2523749629224346,1.0515375197053582,1.4915711692288913,0.011618655635752219,Estimated,0.06759945097164927
+med_d10737.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d10737.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d10737.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d10737.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.248531064756347,0.4178288507296337,3.73078550449427,0.6910439757320231,Estimated,0.798228269061753
+med_d10737.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.891251210470528,1.001383304731226,8.347786030136543,0.04969786886918321,Estimated,0.16631458037855112
+med_d161.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d161.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.7375086699381597,0.09578503410280716,5.678538858692255,0.7700043076535005,Estimated,0.8843720034462934
+med_d161.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d161.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.7914389671319515,0.6461391016188196,4.9668152955275655,0.26246863197485504,Estimated,0.5017343612645236
+med_d161.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.1077201942271593,0.815097180624624,5.450251237218876,0.1239958169251893,Estimated,0.3174292913284846
+med_d25480.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d25480.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.3403713418793878,0.04521134972240552,2.562468297984956,0.29538297517217704,Estimated,0.7774616156388645
+med_d25480.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d25480.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.974748176333272,0.9602122810624268,4.061216917176728,0.06436616956051489,Estimated,0.20976876410049966
+med_d25480.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.1792980194648024,1.1093389153258482,4.281234338784714,0.023747231648159676,Estimated,0.11690944811401686
+med_d2598.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d2598.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.6927494755351268,0.08919325075327514,5.380472533529353,0.7255926309555766,Estimated,0.8749793490934894
+med_d2598.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,0.5884751406162487,0.07620249216649404,4.5445100452447145,0.6111758273407318,Estimated,0.7787711847757521
+med_d2598.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.5486189613587621,0.17493441010272742,1.7205463726983135,0.30325427240536784,Estimated,0.5187244133249713
+med_d2598.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,4.017574519191242,1.5098620918951458,10.690317416337694,0.005350051110282022,Estimated,0.042800408882256176
+med_d29046.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.17453842815983875,0.02338222609881069,1.3028555440260965,0.08874706657695239,Estimated,0.4681661252055064
+med_d29046.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.46172332068344873,0.06077249030670744,3.5079757927810515,0.45509948232518893,Estimated,0.7774616156388645
+med_d29046.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d29046.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,3.1966693002353472,1.4621664071689553,6.988735731422368,0.0035912782396876975,Estimated,0.03890551426328339
+med_d29046.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.0061892008401907,0.46987723932043385,2.1546408788636846,0.9873284920748399,Estimated,0.9983175168618258
+med_d3322.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.3873497867274597,0.049971868904904904,3.0024864101706945,0.364019318520174,Estimated,0.6552347733363132
+med_d3322.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d3322.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d3322.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.8966511798528671,0.26352521486952657,3.0508782194887782,0.8613860032609023,Estimated,0.9030659711606234
+med_d3322.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,3.0730477435938517,1.013947631108805,9.313718129683057,0.047201894745211054,Estimated,0.16631458037855112
+med_d39993.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d39993.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d39993.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d39993.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.6433095509529989,0.1614463416299223,2.5633729087277572,0.5316956930093536,Estimated,0.6776513734432938
+med_d39993.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,5.571252142502547,1.500991378645954,20.678899877052856,0.010259846787208702,Estimated,0.0656630194381357
+med_d5489.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.23868128628014512,0.03163878590757866,1.8005986887979313,0.16466248064552924,Estimated,0.4681661252055064
+med_d5489.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,2.229115614370512,0.6257178215719731,7.9412096809821655,0.21620815364829493,Estimated,0.7774616156388645
+med_d5489.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d5489.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.6641074978232917,0.22779123658045708,1.936153362551927,0.45340150857999684,Estimated,0.6746617351855237
+med_d5489.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.3963108370610007,0.9925425603086827,5.785450274323879,0.05197330636829723,Estimated,0.16631458037855112
+med_d5640.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d5640.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.7673202681566619,0.09878406455454909,5.9602770606678535,0.8000925279032334,Estimated,0.8865890174062856
+med_d5640.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d5640.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.1500860786896296,0.42310352736727097,3.1261804802859365,0.7840178301626994,Estimated,0.8493526493429243
+med_d5640.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.5384398855962496,0.9944015910543877,6.479954487958448,0.051384040535696306,Estimated,0.16631458037855112
+med_d596.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d596.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,2.0535389084503413,0.5710664201980509,7.384468600091945,0.270464660993575,Estimated,0.7774616156388645
+med_d596.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d596.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.944470623144618,0.33761473097817296,2.642138141895394,0.9133214035578966,Estimated,0.9133214035578966
+med_d596.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.2677010974831417,0.9598219957522073,5.357731215042766,0.06196911887821331,Estimated,0.18528742561372058
+med_d6470.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.9012987913232274,0.19618680453576862,4.140642960992851,0.893733944846778,Estimated,0.9575720837644051
+med_d6470.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,2.439327614097509,0.5197259852335064,11.448954599076353,0.2583135356686951,Estimated,0.7774616156388645
+med_d6470.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d6470.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.45358054220110855,0.11597928244288877,1.7738970610096771,0.25586183002669893,Estimated,0.5017343612645236
+med_d6470.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.7675868518668891,0.5860666243594729,5.3310718423991394,0.31185797626694134,Estimated,0.5292749687010172
+med_d6809.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.8738206280025456,0.19163056780473572,3.9845547538157087,0.8616821574915506,Estimated,0.9457487094419459
+med_d6809.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d6809.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d6809.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,3.1625933392662238,1.0449999462665014,9.57128913288989,0.04155917219354855,Estimated,0.19295329947004683
+med_d6809.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.716493564454522,0.23573696916637324,2.1776941890791686,0.5566622099473844,Estimated,0.712527628732652
+med_d7646.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,0.24600503425923237,0.03247649731770315,1.8634545557318178,0.17462294805922662,Estimated,0.4681661252055064
+med_d7646.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.6506344443450226,0.08425937146221929,5.024072371083011,0.6802409900326343,Estimated,0.8715587684793127
+med_d7646.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d7646.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,2.2849456490173106,0.9316945847489616,5.603742583058904,0.07100861310970115,Estimated,0.2197885643871702
+med_d7646.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,1.1247113484487774,0.46815681458021,2.702033972235893,0.792693065846579,Estimated,0.9224064766214737
+med_d7804.0,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d7804.0,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,0.3416973718949663,0.04560882823934628,2.5599669727801015,0.2959632628530702,Estimated,0.7774616156388645
+med_d7804.0,stab,Age/sex adjusted,Feature present: 1 vs 0,602,,,,,Unstable / possible separation,
+med_d7804.0,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,1.42786292580073,0.6746498872636548,3.022000853132072,0.3517829285500623,Estimated,0.5863048809167706
+med_d7804.0,intox,Age/sex adjusted,Feature present: 1 vs 0,602,2.8585633321194766,1.4272722963938642,5.7251754583787315,0.0030371457361676444,Estimated,0.027768189587818463
+med_na,blunt_trauma,Age/sex adjusted,Feature present: 1 vs 0,602,8.570581928823684,3.8563979943565343,19.047534695893212,1.3447817437440732e-07,Estimated,6.051517846848329e-06
+med_na,firearm,Age/sex adjusted,Feature present: 1 vs 0,602,1.643822034757818,0.7744524998041084,3.4891111884057717,0.19554017235046206,Estimated,0.7774616156388645
+med_na,stab,Age/sex adjusted,Feature present: 1 vs 0,602,30.167745222420706,4.1107134750580006,221.39535078932897,0.000807919880924466,Estimated,0.01117284324344297
+med_na,cardiac,Age/sex adjusted,Feature present: 1 vs 0,602,0.546428712257502,0.35916257828067205,0.8313347649098883,0.0047605946540293575,Estimated,0.04149173526899445
+med_na,intox,Age/sex adjusted,Feature present: 1 vs 0,602,0.3208801041636535,0.21904206883167937,0.4700651422681675,5.372036468721743e-09,Estimated,3.4381033399819153e-07

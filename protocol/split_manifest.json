@@ -1,0 +1,16 @@
+{
+    "dataset": "data\\metadata_feature_matrix.csv",
+    "decedents": 860,
+    "unique_decedents": 860,
+    "feature_count": 70,
+    "group_column": "id",
+    "split_ratio": {
+        "train": 0.7,
+        "validation": 0.15,
+        "test": 0.15
+    },
+    "test_random_state": 42,
+    "validation_random_state": 43,
+    "stratification": "original five-class label",
+    "note": "Current matrix has one row per unique decedent. Future CT slices and images must inherit the split assigned to their decedent ID."
+}

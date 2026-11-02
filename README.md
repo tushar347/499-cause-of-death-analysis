@@ -10,6 +10,7 @@ Group 2's CSE 499A capstone at the Department of Electrical and Computer Enginee
 | Metadata-only models | Done |
 | TabPFN experiment | Done |
 | Age ablation | Done |
+| SHAP, calibration, conformal (metadata-only) | Done; validation-only, exploratory |
 | PMCT preprocessing | Not started |
 | PMCT embeddings | Pending |
 | Multimodal fusion | Pending |
@@ -46,7 +47,11 @@ The age-and-sex-only baseline scores are 0.2235 for Logistic Regression and 0.23
 
 Intoxication and cardiac cases are predicted better than firearm, stab, and blunt-trauma cases; blunt trauma is often confused with stab. Cardiac cases are older on average (mean age 51.7 years versus about 43 years). These are preliminary metadata-only findings from cross-validation, not held-out test results.
 
-**No PMCT image results or multimodal results exist yet.** The best current macro-F1 is approximately 0.34 and is preliminary.
+The frozen split contains 602 training, 129 validation, and 129 test records. The test partition has not been evaluated. The selected validation configurations from the 81 scenario comparisons scored 0.3698 macro-F1 for five-class Random Forest/S7_all_history, 0.5753 for broad three-class LightGBM/S7_all_history, and 0.4684 for trauma-subtype LightGBM/S6_medications. These are validation comparisons, not final test results, and history/substance/lifestyle/medication features still require source and timing verification.
+
+Exploratory SHAP, temperature-scaling, and split-conformal analyses are documented in [the reliability-stage methodology](docs/reliability_analysis.md) and summarized in the [supervisor demonstration](protocol/supervisor_demo/supervisor_demo_summary.md). The SHAP explanations indicate substantial reliance on history-related fields in the two S7 configurations. Temperature scaling improved validation Brier score and log loss, but not every ECE. Conformal prediction sets are often multi-class, and validation coverage is descriptive because those records were already used in model selection.
+
+**No PMCT image results or multimodal results exist yet.** The earlier repeated-cross-validation results remain preliminary.
 
 ## Repository structure
 
@@ -54,6 +59,7 @@ Intoxication and cardiac cases are predicted better than firearm, stab, and blun
 .
 ├── data/                 # data/README.md only; local data is ignored
 ├── docs/                 # project, data, methods, leakage, experiments, roadmap
+├── protocol/             # frozen splits, scenario results, SHAP, calibration, conformal
 ├── reports/figures/      # aggregate result figures
 ├── results/              # aggregate CSVs only
 ├── scripts/              # analysis scripts
@@ -90,6 +96,17 @@ python scripts\fix_age_chart.py
 
 The scripts write aggregate CSVs to `results/` and figures to `reports/figures/`. `compare_models.py` uses the existing `results/tabpfn_results.csv`, so run `run_tabpfn.py` before `compare_models.py` if regenerating results from scratch. TabPFN evaluation may take substantial time and may require model downloads or additional compute.
 
+To reproduce the explainability and reliability stages with the existing environment:
+
+```powershell
+.\.venv\Scripts\python.exe run_reliability_stage.py --stage shap
+.\.venv\Scripts\python.exe run_reliability_stage.py --stage calibration
+.\.venv\Scripts\python.exe run_reliability_stage.py --stage conformal
+.\.venv\Scripts\python.exe run_reliability_stage.py --stage summary
+```
+
+See [the full methodology and limitations](docs/reliability_analysis.md). The script writes aggregate outputs only and does not evaluate the test partition.
+
 ## Data access
 
 No NMDID records or medical images are included in this repository. See [data access guidance](docs/data_access.md) and the [NMDID website](https://nmdid.unm.edu) for access requests. Follow the database access terms and any institutional approvals. Never publish person-level data or identifiers.
@@ -102,14 +119,14 @@ The intended prediction must not use fields that reveal the outcome or acquisiti
 
 - The five classes are imbalanced.
 - The source and timing of history, substance-use, and medication fields have not yet been verified; these may leak information about the outcome.
-- Evaluation is cross-validation only; there is no held-out test set yet.
+- A held-out test partition exists but remains untouched; no final test performance is available.
 - PMCT access is pending, so there are no image-only or multimodal results.
 - The best current score, macro-F1 about 0.34, is preliminary and should not be treated as clinical or forensic performance.
 
 ## Roadmap
 
 1. Verify feature definitions and provenance against the NMDID data dictionary.
-2. Freeze train, validation, and test splits by decedent and document cohort selection.
+2. Audit the existing decedent-level split protocol and lock the evaluation plan before using the untouched test partition.
 3. Obtain approved PMCT images and test preprocessing.
 4. Extract embeddings with a pretrained model.
 5. Compare metadata-only, PMCT-only, and multimodal fusion models.

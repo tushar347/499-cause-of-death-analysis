@@ -1,0 +1,4 @@
+task,scenario,model,temperature,model_fit_n,probability_calibration_n,conformal_calibration_n,validation_n
+five_class,S7_all_history,Random Forest,0.9601605931644683,361,120,121,129
+broad_three_class,S7_all_history,LightGBM,1.5661271359315045,361,120,121,129
+trauma_subtype,S6_medications,LightGBM,7.68380988503116,361,41,41,44

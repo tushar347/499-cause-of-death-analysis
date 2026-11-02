@@ -29,3 +29,7 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+protocol/split_assignments_local.csv
+/protocol/split_assignments_local.csv
+/data/metadata_feature_matrix.csv

@@ -1,0 +1,10 @@
+split,broad_label,count
+test,cardiac,30
+test,intoxication,55
+test,trauma,44
+train,cardiac,142
+train,intoxication,256
+train,trauma,204
+validation,cardiac,30
+validation,intoxication,55
+validation,trauma,44

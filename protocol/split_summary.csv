@@ -1,0 +1,16 @@
+split,label,count,split_total,percentage
+test,blunt_trauma,22,129,17.05
+test,cardiac,30,129,23.26
+test,firearm,10,129,7.75
+test,intox,55,129,42.64
+test,stab,12,129,9.3
+train,blunt_trauma,105,602,17.44
+train,cardiac,142,602,23.59
+train,firearm,44,602,7.31
+train,intox,256,602,42.52
+train,stab,55,602,9.14
+validation,blunt_trauma,22,129,17.05
+validation,cardiac,30,129,23.26
+validation,firearm,10,129,7.75
+validation,intox,55,129,42.64
+validation,stab,12,129,9.3

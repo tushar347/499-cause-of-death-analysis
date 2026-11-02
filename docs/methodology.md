@@ -21,4 +21,4 @@ An age-and-sex-only baseline evaluates Logistic Regression and Random Forest wit
 
 ## Evaluation limitations
 
-The reported values are cross-validation estimates, not a final unbiased evaluation. There is no held-out test set yet, and decedent-level splits must be frozen before claims of final generalization are made. Class imbalance and unresolved feature provenance also limit interpretation. No PMCT-only or multimodal model has been evaluated.
+The reported cross-validation and selected-scenario validation values are not a final unbiased evaluation. The frozen split has an independent 129-record test partition, but it has not been evaluated. Decedent-level splits are stored in the protocol, and the test partition must remain locked until the modeling and provenance protocol is approved. Class imbalance and unresolved feature provenance also limit interpretation. No PMCT-only or multimodal model has been evaluated. See [the reliability-stage methodology](reliability_analysis.md) for SHAP, calibration, conformal prediction, and their limitations.
